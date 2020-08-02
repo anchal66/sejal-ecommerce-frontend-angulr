@@ -15,7 +15,7 @@ export class CategoryService {
 
   getCategory(): Observable<ProductCategory[]> {
     return this.http.get<GetResponse>(this.baseUrl).pipe(
-      map(res => res._embedded.productRepositoryng)
+      map(res => res._embedded.productRepository)
     )
   }
 }
