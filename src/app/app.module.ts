@@ -16,6 +16,9 @@ import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { CategoryListComponent } from './components/category-list/category-list.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { ProductAdminComponent } from './components/admin/product-admin/product-admin.component';
+import { CategoryAdminComponent } from './components/admin/category-admin/category-admin.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { CategoryListComponent } from './components/category-list/category-list.
     HeaderComponent,
     HomeComponent,
     ProductListComponent,
-    CategoryListComponent
+    CategoryListComponent,
+    AdminComponent,
+    ProductAdminComponent,
+    CategoryAdminComponent
   ],
   imports: [
     BrowserModule,
